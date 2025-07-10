@@ -1,5 +1,6 @@
 import { Download, Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Typewriter } from 'react-simple-typewriter';
 
 const HeroSection = () => {
   return (
@@ -20,12 +21,12 @@ const HeroSection = () => {
           {/* Foto */}
           <div className="mb-8 flex justify-center">
             <div className="relative group">
-              <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gradient-to-r from-primary to-accent p-1 bg-gradient-to-r from-primary to-accent">
+              <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-gradient-to-r from-primary to-accent p-1 bg-gradient-to-r from-primary to-accent">
                 <div className="w-full h-full rounded-full overflow-hidden bg-secondary flex items-center justify-center">
                   <img
                     src="/pict1.jpg"
                     alt="Putri Gultom"
-                    className="w-40 h-40 object-cover rounded-full"
+                    className="w-60 h-60 object-cover rounded-full"
                   />
                 </div>
               </div>
@@ -37,7 +38,17 @@ const HeroSection = () => {
           <h1 className="text-4xl sm:text-6xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
             Putri Tamara Gultom
           </h1>
-          <p className="text-xl sm:text-3xl text-muted-foreground mb-6">Software Engineer</p>
+          <p className="text-xl sm:text-3xl text-muted-foreground mb-6">
+            <Typewriter
+              words={['Software Engineer', 'Frontend Developer', 'Quality Assurance', 'Data Analyst', 'UI/UX Designer']}
+              loop={true}
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+          </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8">
             Passionate about creating innovative solutions and building scalable applications.
             Ready to contribute to cutting-edge technology teams.

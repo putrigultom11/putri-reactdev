@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     {
       title: "FerryPass – Ferry Booking Ticket System",
       description: "A cross-platform ferry ticketing system using RESTful APIs, with UAT & SUS evaluations and a chatbot powered by NLP and machine learning.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
+      image: "/public/kmp.webp",
       technologies: ["REST API", "Flutter", "Tailwind CSS", "MySQL", "React", "Laravel", "NLP", "Selenium", "Midtrans"],
       liveDemo: "",
       sourceCode: "https://github.com/ImmanuelPartogi/TA-Kel-13",
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
     {
       title: "Newsly – Android News Reader Application",
       description: "A real-time news reader app built with Kotlin, featuring infinite scrolling, live data from NewsAPI.org, and optimized UI with clean architecture.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      image: "/public/rakamin.png",
       technologies: ["Kotlin", "REST API", "Retrofit", "Android"],
       liveDemo: "",
       sourceCode: "https://github.com/putriitr/NewsApp",
@@ -37,54 +37,54 @@ const ProjectsSection = () => {
       image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
       technologies: ["Laravel", "Tailwind CSS", "HTML", "PHP", "MySQL", "Midtrans", "Cypress"],
       liveDemo: "",
-      sourceCode: "",
+      sourceCode: "https://github.com/iqbalsiagian17/Umalo-Ags",
       featured: false
     },
-    {
-      title: "Electronics Learning Platform",
-      description: "An e-learning platform using C# and .NET with a distributed database system, data analysis, and functional frontend interface.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
-      technologies: ["C#", ".NET"],
-      liveDemo: "",
-      sourceCode: "",
-      featured: false
-    },
-    {
-      title: "NextGen – Electronics Online Store",
-      description: "Developed an electronics e-commerce site with PHP, ReactJS, and MySQL, emphasizing clean UI and efficient data operations.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80",
-      technologies: ["PHP", "React", "MySQL"],
-      liveDemo: "",
-      sourceCode: "",
-      featured: false
-    },
+    // {
+    //   title: "Electronics Learning Platform",
+    //   description: "An e-learning platform using C# and .NET with a distributed database system, data analysis, and functional frontend interface.",
+    //   image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["C#", ".NET"],
+    //   liveDemo: "",
+    //   sourceCode: "",
+    //   featured: false
+    // },
+    // {
+    //   title: "NextGen – Electronics Online Store",
+    //   description: "Developed an electronics e-commerce site with PHP, ReactJS, and MySQL, emphasizing clean UI and efficient data operations.",
+    //   image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["PHP", "React", "MySQL"],
+    //   liveDemo: "",
+    //   sourceCode: "",
+    //   featured: false
+    // },
     {
       title: "Purnama Balige Hotel Reservation System",
       description: "Hotel booking system using PHP and MySQL with Midtrans integration, featuring microservices and full frontend implementation.",
       image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
       technologies: ["Laravel", "Tailwind CSS", "HTML", "PHP", "MySQL", "REST API", "Selenium"],
       liveDemo: "",
-      sourceCode: "",
+      sourceCode: "https://github.com/putriitr/PA2Kel07_purnamaHotel",
       featured: false
     },
-    {
-      title: "StayNight – Android Hotel Booking App",
-      description: "A native Android hotel reservation app built with Kotlin and Java, featuring modular OOP design and multi-device compatibility.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
-      technologies: ["Kotlin", "Java", "Android", "OOP"],
-      liveDemo: "",
-      sourceCode: "",
-      featured: false
-    },
-    {
-      title: "IT DEL BAAK Administration Application",
-      description: "Application for managing academic administration using PHP, ReactJS, and standard frontend technologies for dynamic UI rendering.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
-      technologies: ["PHP", "React", "HTML", "CSS", "JavaScript"],
-      liveDemo: "",
-      sourceCode: "",
-      featured: false
-    }
+    // {
+    //   title: "StayNight – Android Hotel Booking App",
+    //   description: "A native Android hotel reservation app built with Kotlin and Java, featuring modular OOP design and multi-device compatibility.",
+    //   image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["Kotlin", "Java", "Android", "OOP"],
+    //   liveDemo: "",
+    //   sourceCode: "",
+    //   featured: false
+    // },
+    // {
+    //   title: "IT DEL BAAK Administration Application",
+    //   description: "Application for managing academic administration using PHP, ReactJS, and standard frontend technologies for dynamic UI rendering.",
+    //   image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
+    //   technologies: ["PHP", "React", "HTML", "CSS", "JavaScript"],
+    //   liveDemo: "",
+    //   sourceCode: "",
+    //   featured: false
+    // }
   ];
 
   const featuredProjects = projects.filter(p => p.featured);
@@ -99,7 +99,7 @@ const ProjectsSection = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work and personal projects that demonstrate my technical skills
+            Projects that highlight my practical experience in software development, system design, and modern technologies.
           </p>
         </div>
 

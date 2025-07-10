@@ -217,7 +217,7 @@ const ContactSection = () => {
 
         <div className="mt-20 pt-8 border-t border-muted-foreground/20 text-center">
           <p className="text-muted-foreground">
-            © 2024 Putri Tamara Gultom. Built with React, TypeScript, and Tailwind CSS.
+            2025 © Putri Tamara Gultom.
           </p>
         </div>
       </div>
