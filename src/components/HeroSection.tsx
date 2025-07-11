@@ -24,7 +24,7 @@ const HeroSection = () => {
               <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-gradient-to-r from-primary to-accent p-1 bg-gradient-to-r from-primary to-accent">
                 <div className="w-full h-full rounded-full overflow-hidden bg-secondary flex items-center justify-center">
                   <img
-                    src="/pict1.jpg"
+                    src="/putri.jpg"
                     alt="Putri Gultom"
                     className="w-60 h-60 object-cover rounded-full"
                   />
