@@ -5,12 +5,12 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: '/putrigultom11.github.io/', 
-  server: {
-    host: "::",
-    port: 8082,
-    historyApiFallback: true, 
-    plugins: [react()],
-  },
+  // server: {
+  //   host: "::",
+  //   port: 8082,
+  //   historyApiFallback: true, 
+  //   plugins: [react()],
+  // },
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
