@@ -4,10 +4,12 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/putri-reactdev/', 
+  base: '/putrigultom11.github.io/', 
   server: {
     host: "::",
-    port: 8080,
+    port: 8082,
+    historyApiFallback: true, 
+    plugins: [react()],
   },
   plugins: [
     react(),
